@@ -1,0 +1,258 @@
+/* Header */
+.logo {
+	font-family: Lucida Sans;
+	color: #040b06;
+	font-size: 10px;
+	text-align: center;
+	border-bottom: 1px solid #d46885;
+}
+			/* NavBar */
+.navbar ul {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		background-color: #f7fdf8;
+}
+.navbar li a {
+		display: block;
+		color: #040b06;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin: 20px 25px;
+		padding: 10px;
+		font-size: 13px;
+		letter-spacing: 2px;
+		transition: all 0.4s;
+}
+.navbar ul li a:hover {
+		color: #040b06;
+		background-color: #d46885;
+}
+.navbar ul li a.active{
+		color: #040b06;
+		background-color: #d46885;
+}
+			/* Background Main */
+.wave {
+	background: #f7fdf8;
+	margin: 0 40px;
+	width: 1825px;
+	height: 25px;
+	position: relative;
+}
+.wave::before, .wave::after {
+	border-bottom: 5px solid #d694e1;
+}
+.wave::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, #d694e1 21px);
+}
+.wave::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, #d694e1 20px, transparent 21px);
+}
+.wavebottom {
+	background: #d694e1;
+	margin: 0 40px;
+	width: 1825px;
+	height: 25px;
+	position: relative;
+}
+.wavebottom::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wavebottom::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+.bg {
+	width: 1825px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #d694e1;
+}
+.text {
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #fff;
+	padding: 20px;
+}
+.btn_dark {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid white;
+	background-color: #d694e1;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_dark:hover {
+	background-color: #f7fdf8;
+	color: #040b06;
+}
+
+	/* Discover section */
+.discover {
+	width: 1825px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #f7fdf8;
+}
+#about {
+	font-family: Lucida Handwriting;
+	font-size: 25px;
+	color: #40c962;
+	padding: 10px;
+    margin-left: 1000px;
+}
+.btn_light {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid #040b06;
+	background-color: #f7fdf8;
+	color: #040b06;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_light:hover {
+	background-color: #d46885;
+	color: #fff;
+	border: 2px solid #fff;
+}
+		
+		/* Contact section */
+.wave2 {
+	background: #fff;
+	margin: 0 40px;
+	width: 1825px;
+	height: 25px;
+	position: relative;
+}
+.wave2::before, .wave2::after {
+	border-bottom: 5px solid #d46885;
+}
+.wave2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, #d46885 21px);
+}
+.wave2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, #d46885 20px, transparent 21px);
+}
+.wavebottom2 {
+	background: #d46885;
+	margin: 0 40px;
+	width: 1825px;
+	height: 25px;
+	position: relative;
+}
+.wavebottom2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	background-size: 20px 40px;
+	background-image: radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wavebottom2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 18px;
+	background-size: 40px 40px;
+	background-image: radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+.bg2 {
+	width: 1825px;
+	height: 400px;
+	margin: 0 40px;
+	background-color: #d46885;
+}
+.text2 {
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+}
+.btn_dark2 {
+	display: inline-block;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	border: 2px solid white;
+	background-color: #d46885;
+	color: #f7fdf8;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-radius: 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.4s;
+}
+.btn_dark2:hover {
+	background-color: #f7fdf8;
+	color: #040b06;
+}
+#special_text {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    text-transform: uppercase;
+}
+.paragraph {
+    align-items: center;
+    padding: 10px;
+}
